@@ -1,0 +1,26 @@
+{
+  "name": "yachts-site",
+  "version": "0.0.0",
+  "description": "Site that presents, what BJN company offers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakopiec/yachts-site.git"
+  },
+  "keywords": [
+    "website",
+    "yachts"
+  ],
+  "author": "Barbara Kopiec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bakopiec/yachts-site/issues"
+  },
+  "homepage": "https://github.com/bakopiec/yachts-site#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
