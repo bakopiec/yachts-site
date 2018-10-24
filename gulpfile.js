@@ -11,4 +11,8 @@ gulp.task('html', function() {
             .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', ['html']);
+gulp.task('watch', function() {
+    gulp.watch(paths.html, ['html']);
+});
+
+gulp.task('default', ['html', 'watch']);
