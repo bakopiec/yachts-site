@@ -1,3 +1,4 @@
+var browserSync = require('browser-sync').create();
 var gulp = require('gulp');
 
 var paths = {
@@ -15,4 +16,10 @@ gulp.task('watch', function() {
     gulp.watch(paths.html, ['html']);
 });
 
-gulp.task('default', ['html', 'watch']);
+gulp.task('serve', function() {
+    browserSync.init({
+        server: 'dist'
+    });
+});
+
+gulp.task('default', ['html', 'watch', 'serve']);
