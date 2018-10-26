@@ -1,0 +1,17 @@
+{
+  "name": "yachts-site",
+  "description": "Site that presents, what BJN company offers.",
+  "main": "index.js",
+  "authors": [
+    "Barbara Kopiec"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "website",
+    "yachts"
+  ],
+  "homepage": "https://github.com/bakopiec/yachts-site",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
