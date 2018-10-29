@@ -8,7 +8,7 @@ var paths = {
         'app/**/*.html'
     ],
     sass: [
-        'app/styles/style.scss'
+        'app/styles/styles.scss'
     ],
     sassWatch: [
         'app/styles/**/*.scss'
@@ -19,6 +19,9 @@ var paths = {
     ],
     jsWatch: [
         'app/scripts/**/*.js'
+    ],
+    images: [
+        'app/images/**/*.*'
     ]
 }
 
@@ -30,6 +33,7 @@ gulp.task('html', function() {
 gulp.task('sass', function() {
     gulp.src(paths.sass)
             .pipe(gulpSass())
+            .pipe(gulpConcat('styles.css'))
             .pipe(gulp.dest('dist'));
 });
 
@@ -38,6 +42,11 @@ gulp.task('js', function() {
             .pipe(gulpConcat('scripts.js'))
             .pipe(gulp.dest('dist'));
 });
+
+gulp.task('images', function() {
+    gulp.src(paths.images)
+            .pipe(gulp.dest('dist/images'));
+})
 
 gulp.task('watch', function() {
     gulp.watch(paths.html, ['html'])
@@ -54,4 +63,4 @@ gulp.task('serve', function() {
     });
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'watch', 'serve']);
+gulp.task('default', ['html', 'sass', 'js', 'images', 'watch', 'serve']);
