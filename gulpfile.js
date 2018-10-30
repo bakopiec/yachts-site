@@ -15,7 +15,7 @@ var paths = {
     ],
     js: [
         'bower_components/jquery/dist/jquery.js',
-        'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
+        'node_modules/bootstrap/dist/js/bootstrap.js'
     ],
     jsWatch: [
         'app/scripts/**/*.js'
