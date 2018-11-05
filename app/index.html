@@ -23,7 +23,7 @@
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
-	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">
 				<img src="images/favicons/android-icon-48x48.png" width="48" height="48"
 						alt="Yachts" class="d-inline-block align-top">
@@ -36,7 +36,9 @@
 			<div class="collapse navbar-collapse" id="yachtsNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home</a>
+						<a class="nav-link" href="#">
+							Home <span class="sr-only">(current)</span>
+						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Contact</a>
@@ -44,6 +46,28 @@
 				</ul>
 			</div>
 		</nav>
+		<div id="yachtsCatalog" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#yachtsCatalog" data-slide-to="0"></li>
+				<li data-target="#yachtsCatalog" data-slide-to="1"></li>
+				<li data-target="#yachtsCatalog" data-slide-to="2"></li>
+				<li data-target="#yachtsCatalog" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="images/carousel/from-outside.jpg" alt="From outside">
+				</div>
+				<div class="carousel-item ">
+					<img class="d-block w-100" src="images/carousel/inside.jpg" alt="Inside">
+				</div>
+				<div class="carousel-item ">
+					<img class="d-block w-100" src="images/carousel/on-board.jpg" alt="On board">
+				</div>
+				<div class="carousel-item ">
+					<img class="d-block w-100" src="images/carousel/pull-boat.jpg" alt="Pull boat">
+				</div>
+			</div>
+		</div>
 	</body>
 	<script src="scripts.js" charset="utf-8"></script>
 </html>
