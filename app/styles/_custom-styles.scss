@@ -9,6 +9,20 @@
     }
 }
 
+#team {
+    .person {
+        text-align: center;
+
+        img {
+            width: 50%;
+        }
+
+        p {
+            color: $text-description-gray;
+        }
+    }
+}
+
 .footer {
     background-color: $footer-background-color;
     color: $footer-text-color;
