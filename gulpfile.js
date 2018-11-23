@@ -22,6 +22,9 @@ var paths = {
     ],
     images: [
         'app/images/**/*.*'
+    ],
+    resources: [
+        'app/scripts/maps.js'
     ]
 }
 
@@ -48,6 +51,11 @@ gulp.task('images', function() {
             .pipe(gulp.dest('dist/images'));
 })
 
+gulp.task('resources', function() {
+    gulp.src(paths.resources)
+            .pipe(gulp.dest('dist'));
+})
+
 gulp.task('watch', function() {
     gulp.watch(paths.html, ['html'])
             .on('change', browserSync.reload);
@@ -63,4 +71,4 @@ gulp.task('serve', function() {
     });
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'images', 'watch', 'serve']);
+gulp.task('default', ['html', 'sass', 'js', 'images', 'resources', 'watch', 'serve']);
