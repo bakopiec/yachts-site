@@ -15,10 +15,13 @@ var paths = {
     ],
     js: [
         'bower_components/jquery/dist/jquery.js',
-        'node_modules/bootstrap/dist/js/bootstrap.js'
+        'node_modules/bootstrap/dist/js/bootstrap.js',
+        'bower_components/angular/angular.js',
+        'bower_components/angular-route/angular-route.js',
+        'app/**/*.js'
     ],
     jsWatch: [
-        'app/scripts/**/*.js'
+        'app/**/*.js'
     ],
     images: [
         'app/images/**/*.*'
