@@ -18,7 +18,10 @@ var paths = {
         'node_modules/bootstrap/dist/js/bootstrap.js',
         'bower_components/angular/angular.js',
         'bower_components/angular-route/angular-route.js',
-        'app/**/*.js'
+        'app/app.mdl.js',
+        'app/app.route.js',
+        'app/core/home/home.ctrl.js',
+        'app/core/contact/contact.ctrl.js'
     ],
     jsWatch: [
         'app/**/*.js'
