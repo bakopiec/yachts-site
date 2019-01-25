@@ -1,6 +1,6 @@
 angular
   .module('yachtsSite')
-  .config(function($routeProvider, $locationProvider) {
+  .config(function($routeProvider, $locationProvider, $translateProvider) {
     $routeProvider
       .when('/', {
         controller: 'homeCtrl',
@@ -14,5 +14,12 @@ angular
           redirectTo: '/'
       });
   
-      $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
+
+    $translateProvider
+      .useStaticFilesLoader({
+          prefix: 'locales/',
+          suffix: '.json'
+      })
+      .preferredLanguage('en');
   });

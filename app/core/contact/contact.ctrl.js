@@ -1,5 +1,5 @@
 angular
-.module('yachtsSite')
-.controller('contactCtrl', function() {
+  .module('yachtsSite')
+  .controller('contactCtrl', function() {
 
-});
+  });

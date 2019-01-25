@@ -1,2 +1,2 @@
 angular
-  .module('yachtsSite', ['ngRoute']);
+  .module('yachtsSite', ['ngRoute', 'pascalprecht.translate']);

@@ -1,4 +1,4 @@
-<html>
+<html ng-app="yachtsSite" lang="{{lang}}">
 	<head>
 		<base href="/">
 		<meta charset="utf-8">
@@ -22,8 +22,9 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+		<script src="scripts.js" charset="utf-8"></script>
 	</head>
-	<body ng-app="yachtsSite">
+	<body ng-controller="indexCtrl">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="/">
 				<img src="images/favicons/android-icon-72x36.png" width="72" height="36"
@@ -38,17 +39,21 @@
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="/">
-							Home <span class="sr-only">(current)</span>
+							{{'HOME' | translate}}<span class="sr-only">(current)</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/contact">Contact</a>
+						<a class="nav-link" href="/contact">{{'CONTACT' | translate}}</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="index-pl.html">
+						<a ng-show="lang === 'en'" ng-click="changeLanguage('pl')">
 							<img src="images/pl-flag.jpg" width="58" height="36" alt="Polish"
+									class="d-inline-block align-top">
+						</a>
+						<a ng-show="lang === 'pl'" ng-click="changeLanguage('en')">
+							<img src="images/en-flag.jpg" width="58" height="36" alt="Angielski"
 									class="d-inline-block align-top">
 						</a>
 					</li>
@@ -60,29 +65,26 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 about-us">
-							<h5>About us</h5>
-							<p class="footer-column-content">
-								Our company is involved in production yachts. We adjusting our products to
-								clients requirenments. Our yachts have luxury eqipement and modern looks.
-							</p>
+							<h5>{{'FOOTER.ABOUT_US' | translate}}</h5>
+							<p class="footer-column-content">{{'FOOTER.DESCRIPTION' | translate}}</p>
 					</div>
 					<div class="col-md-4">
-						<h5>Site map</h5>
+						<h5>{{'FOOTER.SITE_MAP' | translate}}</h5>
 						<ul class="list-group list-group-flush footer-column-content">
 							<li class="list-group-item">
-								<a href="/">Home</a>
+								<a href="/">{{'HOME' | translate}}</a>
 							</li>
 							<li class="list-group-item">
-								<a href="/contact">Contact</a>
+								<a href="/contact">{{'CONTACT' | translate}}</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-4">
-						<h5>Contact us</h5>
+						<h5>{{'FOOTER.CONTACT_US' | translate}}</h5>
 						<ul class="list-group list-group-flush footer-column-content">
 						<li class="list-group-item">
 							<span></span>
-							<p>ul. Jana Pawła II 8 36-042 Rzeszów</p>
+							<p>{{'FOOTER.ADDRESS' | translate}}</p>
 						</li>
 						<li class="list-group-item">
 							<span></span>
@@ -97,11 +99,10 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<p class="footer-sign">© All Rights Reserved by Tardion yachts</p>
+						<p class="footer-sign">{{'FOOTER.ALL_RIGHTS' | translate}}</p>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</body>
-	<script src="scripts.js" charset="utf-8"></script>
 </html>

@@ -1,0 +1,21 @@
+{
+  "HOME": "Home",
+  "CONTACT": "Kontakt",
+
+  "HOME": {
+
+  },
+
+  "CONTACT": {
+
+  },
+
+  "FOOTER": {
+    "ABOUT_US": "O nas",
+    "DESCRIPTION": "Nasza firma jest zaangażowana w produkcję jachtów.Dopasowujemy nasze produkty do potrzeb klientów.Nasze jachty maja luksusowe wyposażenie i nowoczesny wygląd.",
+    "SITE_MAP": "Mapa strony",
+    "CONTACT_US": "Kontakt do nas",
+    "ADDRESS": "ul. Jana Pawła II 8 36-042 Rzeszów",
+    "ALL_RIGHTS": "© Wszelkie prawa zastrzeżone przez Tardion yachts"
+  }
+}

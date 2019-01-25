@@ -18,8 +18,12 @@ var paths = {
         'node_modules/bootstrap/dist/js/bootstrap.js',
         'bower_components/angular/angular.js',
         'bower_components/angular-route/angular-route.js',
+        'bower_components/angular-translate/angular-translate.js',
+        'bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
         'app/app.mdl.js',
-        'app/app.route.js',
+        'app/app.run.js',
+        'app/app.conf.js',
+        'app/core/index.ctrl.js',
         'app/core/home/home.ctrl.js',
         'app/core/contact/contact.ctrl.js'
     ],
@@ -28,6 +32,10 @@ var paths = {
     ],
     images: [
         'app/images/**/*.*'
+    ],
+    locales: [
+        'app/locales/en.json',
+        'app/locales/pl.json'
     ],
     resources: [
         'app/scripts/maps.js'
@@ -57,6 +65,11 @@ gulp.task('images', function() {
             .pipe(gulp.dest('dist/images'));
 })
 
+gulp.task('locales', function() {
+    gulp.src(paths.locales)
+            .pipe(gulp.dest('dist/locales'));
+})
+
 gulp.task('resources', function() {
     gulp.src(paths.resources)
             .pipe(gulp.dest('dist'));
@@ -69,6 +82,8 @@ gulp.task('watch', function() {
             .on('change', browserSync.stream);
     gulp.watch(paths.jsWatch, ['js'])
             .on('change', browserSync.reload);
+    gulp.watch(paths.locales, ['locales'])
+            .on('change', browserSync.reload);
 });
 
 gulp.task('serve', function() {
@@ -77,4 +92,4 @@ gulp.task('serve', function() {
     });
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'images', 'resources', 'watch', 'serve']);
+gulp.task('default', ['html', 'sass', 'js', 'images', 'locales', 'resources', 'watch', 'serve']);

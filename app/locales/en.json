@@ -1,0 +1,21 @@
+{
+  "HOME": "Home",
+  "CONTACT": "Contact",
+
+  "HOME": {
+
+  },
+
+  "CONTACT": {
+
+  },
+
+  "FOOTER": {
+    "ABOUT_US": "About us",
+    "DESCRIPTION": "Our company is involved in production yachts. We adjusting our products to clients requirenments. Our yachts have luxury eqipement and modern looks.",
+    "SITE_MAP": "Site map",
+    "CONTACT_US": "Contact us",
+    "ADDRESS": "ul. Jana Pawła II 8 36-042 Rzeszow",
+    "ALL_RIGHTS":"© All Rights Reserved by Tardion yachts"
+  }
+}

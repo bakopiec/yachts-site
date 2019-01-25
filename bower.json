@@ -12,6 +12,11 @@
   ],
   "homepage": "https://github.com/bakopiec/yachts-site",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "angular": "^1.7.6",
+    "angular-route": "^1.7.6",
+    "angular-translate": "^2.18.1",
+    "angular-translate-loader-static-files": "^2.18.1",
+    "angular-translate-storage-local": "^2.18.1"
   }
 }
