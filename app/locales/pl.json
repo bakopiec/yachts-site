@@ -3,7 +3,18 @@
   "CONTACT": "Kontakt",
 
   "HOME": {
-
+    "CAROUSEL": {
+      "BEGIN": "Początek",
+      "BEGIN_DESCRIPTION": "Tak wyglądały początki",
+      "INSIDE":"Wnętrze",
+      "INSIDE_DESCRIPTION":"Zabudowa wnętrza kabiny",
+      "ON_TRAILER": "Na lawecie",
+      "ON_TRAILER_DESCRIPTION": "Przygotowanie do transportu",
+      "On_BOARD":"Na pokładzie",
+      "On_BOARD_DESCRIPTION":"Pokład z drzewa tekowego"
+    },
+    "PLANS_ALT": "W trasę",
+    "PLANS_TEKST": "Korpus łodzi gotowy. Przed nami kolejny etap,zabudowa w drewnie, oraz wykonanie foteli i zabudowa kabiny."
   },
 
   "CONTACT": {
