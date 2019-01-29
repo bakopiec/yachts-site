@@ -6,15 +6,22 @@
     "CAROUSEL": {
       "BEGIN": "Początek",
       "BEGIN_DESCRIPTION": "Tak wyglądały początki",
-      "INSIDE":"Wnętrze",
+      "INSIDE": "Wnętrze",
       "INSIDE_DESCRIPTION":"Zabudowa wnętrza kabiny",
       "ON_TRAILER": "Na lawecie",
       "ON_TRAILER_DESCRIPTION": "Przygotowanie do transportu",
-      "On_BOARD":"Na pokładzie",
+      "On_BOARD": "Na pokładzie",
       "On_BOARD_DESCRIPTION":"Pokład z drzewa tekowego"
     },
     "PLANS_ALT": "W trasę",
-    "PLANS_TEKST": "Korpus łodzi gotowy. Przed nami kolejny etap,zabudowa w drewnie, oraz wykonanie foteli i zabudowa kabiny."
+    "PLANS_TEKST": "Korpus łodzi gotowy. Przed nami kolejny etap,zabudowa w drewnie, oraz wykonanie foteli i zabudowa kabiny.",
+    "BUILDING_TEKST": "Budowę łodzi rozpoczęlismy w 2016. Projekt wykonał Przemysław Herbut. W 2017 roku wykonalismy kopyto, następny etap to formy i wreszcie gotowe korpusy.",
+    "BUILDING_ALT": "Korpus",
+    "DAMIAN_DESCRIPTION": "CEO oraz współzałożyciel firmy",
+    "JOZEF_ROLE": "Menadżer produkcji",
+    "JOZEF_DESCRIPTION": "Współzałożyciel firmy oraz menadżer produkcji",
+    "KRZYSZTOF_ROLE": "Specjalista produkcji",
+    "KRZYSZTOF_DESCRIPTION": "Specjalista do spraw budowy łodzi"
   },
 
   "CONTACT": {

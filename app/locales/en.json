@@ -4,17 +4,24 @@
 
   "HOME": {
     "CAROUSEL": {
-      "BEGIN":"Begin",
+      "BEGIN": "Begin",
       "BEGIN_DESCRIPTION": "How was beginning",
-      "INSIDE":"Inside",
-      "INSIDE_DESCRIPTION":"How boat were assembling inside",
-      "ON_TRAILER":"On Trailer",
-      "ON_TRAILER_DESCRIPTION":"Boat is presenting on trailer",
-      "On_BOARD":"On board",
-      "On_BOARD_DESCRIPTION":"Deck is build from boards"
+      "INSIDE": "Inside",
+      "INSIDE_DESCRIPTION": "How boat were assembling inside",
+      "ON_TRAILER": "On Trailer",
+      "ON_TRAILER_DESCRIPTION": "Boat is presenting on trailer",
+      "On_BOARD": "On board",
+      "On_BOARD_DESCRIPTION": "Deck is build from boards"
     },
     "PLANS_ALT": "Go to trip",
-    "PLANS_TEKST": "First stage we finished. Boat is ready to trip. Now ahead us, finishig work. We will prepare inside decorations. It will take about one mounth time. After finish this stage we will launching boad."
+    "PLANS_TEKST": "First stage we finished. Boat is ready to trip. Now ahead us, finishig work. We will prepare inside decorations. It will take about one mounth time. After finish this stage we will launching boad.",
+    "BUILDING_TEKST": "Building of boat we were started in 2016 year. Building expected from us many work and involved. Project concept were still changing desigin. In 2017 year we finished working on boat form and we started work on first corpus and polishing result.",
+    "BUILDING_ALT": "Corpus",
+    "DAMIAN_DESCRIPTION":	"CEO and co-founder of company",
+    "JOZEF_ROLE": "Production manager",
+    "JOZEF_DESCRIPTION": "Co-founder of company and production manager",
+    "KRZYSZTOF_ROLE": "Production spcialist",
+    "KRZYSZTOF_DESCRIPTION": "Boat building specialist"
   },
 
   "CONTACT": {
