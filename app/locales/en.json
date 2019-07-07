@@ -4,14 +4,18 @@
 
   "HOME": {
     "CAROUSEL": {
-      "BEGIN": "Begin",
-      "BEGIN_DESCRIPTION": "How was beginning",
-      "INSIDE": "Inside",
-      "INSIDE_DESCRIPTION": "How boat were assembling inside",
-      "ON_TRAILER": "On Trailer",
-      "ON_TRAILER_DESCRIPTION": "Boat is presenting on trailer",
-      "On_BOARD": "On board",
-      "On_BOARD_DESCRIPTION": "Deck is build from boards"
+      "OUTSIDE": "New design",
+      "OUTSIDE_DESCRIPTION": "Retro with modern connection",
+      "BOARD": "Deck",
+      "BOARD_DESCRIPTION": "View from up",
+      "UP_DECK": "Up deck",
+      "UP_DECK_DESCRIPTION": "Some relax",
+      "CABIN": "Cabin",
+      "CABIN_DESCRIPTION": "Time for coffe",
+      "READY_ON_TRIP": "Trip",
+      "READY_ON_TRIP_DESCRIPTION": "Ready to trip",
+      "IN_PORT": "In port",
+      "IN_PORT_DESCRIPTION": "Welcome on deck"
     },
     "PLANS_ALT": "Go to trip",
     "PLANS_TEKST": "First stage we finished. Boat is ready to trip. Now ahead us, finishig work. We will prepare inside decorations. It will take about one mounth time. After finish this stage we will launching boad.",

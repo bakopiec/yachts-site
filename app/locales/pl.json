@@ -4,14 +4,18 @@
 
   "HOME": {
     "CAROUSEL": {
-      "BEGIN": "Początek",
-      "BEGIN_DESCRIPTION": "Tak wyglądały początki",
-      "INSIDE": "Wnętrze",
-      "INSIDE_DESCRIPTION":"Zabudowa wnętrza kabiny",
-      "ON_TRAILER": "Na lawecie",
-      "ON_TRAILER_DESCRIPTION": "Przygotowanie do transportu",
-      "On_BOARD": "Na pokładzie",
-      "On_BOARD_DESCRIPTION":"Pokład z drzewa tekowego"
+      "OUTSIDE": "Nowy design",
+      "OUTSIDE_DESCRIPTION": "Połączenie retro z nowoczesnością",
+      "BOARD": "Pokład",
+      "BOARD_DESCRIPTION":"Widok z góry",
+      "UP_DECK": "Górny pokład",
+      "UP_DECK_DESCRIPTION": "Odrobina relaksu",
+      "CABIN": "Kabina",
+      "CABIN_DESCRIPTION":"Teraz kawa",
+      "READY_ON_TRIP": "Wyjazd",
+      "READY_ON_TRIP_DESCRIPTION": "Łódz gotowa do drogi",
+      "IN_PORT": "W porcie",
+      "IN_PORT_DESCRIPTION": "Zapraszamy na pokład"
     },
     "PLANS_ALT": "W trasę",
     "PLANS_TEKST": "Korpus łodzi gotowy. Przed nami kolejny etap,zabudowa w drewnie, oraz wykonanie foteli i zabudowa kabiny.",
