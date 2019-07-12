@@ -7,6 +7,14 @@
     font-size: 20px;
 }
 
+#description {
+	.card.card-pricing {
+		flex: 0 1 auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 #team {
     .person {
         text-align: center;
