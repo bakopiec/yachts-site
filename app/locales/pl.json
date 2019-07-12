@@ -17,8 +17,8 @@
       "IN_PORT": "W porcie",
       "IN_PORT_DESCRIPTION": "Zapraszamy na pokład"
     },
-    "PLANS_ALT": "W trasę",
-    "PLANS_TEKST": "Korpus łodzi gotowy. Przed nami kolejny etap,zabudowa w drewnie, oraz wykonanie foteli i zabudowa kabiny.",
+    "WATER_ALT": "Test wodny",
+    "WATER_TEKST": "Przeprowadzono test na wodzie oraz wykonano optymalizację doboru mocy silników(300 KM lub 2 silniki po 150KM). Łódz podlega nadzorowi PRS.",
     "BUILDING_TEKST": "Budowę łodzi rozpoczęlismy w 2016. Projekt wykonał Przemysław Herbut. W 2017 roku wykonalismy kopyto, następny etap to formy i wreszcie gotowe korpusy.",
     "BUILDING_ALT": "Korpus",
     "DAMIAN_DESCRIPTION": "CEO oraz współzałożyciel firmy",
