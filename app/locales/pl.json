@@ -17,8 +17,21 @@
       "IN_PORT": "W porcie",
       "IN_PORT_DESCRIPTION": "Zapraszamy na pokład"
     },
+    "DESCRIPTION": {
+      "INFORMATION": "Dane łodzi",
+      "LENGTH": "Długośc całkowita kadłuba",
+      "WIDTH": "Szerokość całkowita",
+      "DIPPING":"Zanurzenie",
+      "WEIGTH": "Masa (bez silnika)",
+      "PEOPLE": "Dopuszczalna liczba osób",
+      "NUMBER": "Liczba miejsc do spania",
+      "FUEL": "Zbiornik paliwa",
+      "WATER": "Zbiornik wody",
+      "CALL":"Skontaktuj się"
+
+    },
     "WATER_ALT": "Test wodny",
-    "WATER_TEKST": "Przeprowadzono test na wodzie oraz wykonano optymalizację doboru mocy silników(300 KM lub 2 silniki po 150KM). Łódz podlega nadzorowi PRS.",
+    "WATER_TEKST": "Przeprowadziliśmy test na wodzie oraz dokonalismy doboru mocy silnika (300KM lub 2 silniki po 150 KM). Łódz podlega nadzorowi PRS.",
     "BUILDING_TEKST": "Budowę łodzi rozpoczęlismy w 2016. Projekt wykonał Przemysław Herbut. W 2017 roku wykonalismy kopyto, następny etap to formy i wreszcie gotowe korpusy.",
     "BUILDING_ALT": "Korpus",
     "DAMIAN_DESCRIPTION": "CEO oraz współzałożyciel firmy",
@@ -37,7 +50,7 @@
     "DESCRIPTION": "Nasza firma jest zaangażowana w produkcję jachtów.Dopasowujemy nasze produkty do potrzeb klientów.Nasze jachty maja luksusowe wyposażenie i nowoczesny wygląd.",
     "SITE_MAP": "Mapa strony",
     "CONTACT_US": "Kontakt do nas",
-    "ADDRESS": "ul. Jana Pawła II 8 36-042 Rzeszów",
+    "ADDRESS": "Siedliska 18 A 36-042 Lubenia",
     "ALL_RIGHTS": "© Wszelkie prawa zastrzeżone przez Tardion yachts"
   }
 }
