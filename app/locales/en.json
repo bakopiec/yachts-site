@@ -17,9 +17,21 @@
       "IN_PORT": "In port",
       "IN_PORT_DESCRIPTION": "Welcome on deck"
     },
+    "DESCRIPTION": {
+      "INFORMATION": "Boat information",
+      "LENGTH": "Total length of the hull",
+      "WIDTH": "Total width",
+      "DIPPING": "Dipping",
+      "WEIGTH": "Weigth (without engine)",
+      "PEOPLE": "Permissible number of people",
+      "NUMBER": "Number of sleeping places",
+      "FUEL": "Fuel tank",
+      "WATER": "Water tank",
+      "CALL": "Contact us"
+    },
     "WATER_ALT": "Water test",
-    "WATER_TEKST": "Przeprowadzono test na wodzie oraz wykonano optymalizację doboru mocy silników(300 KM lub 2 silniki po 150KM). Łódz podlega nadzorowi PRS.",
-    "BUILDING_TEKST": "Building of boat we were started in 2016 year. Building expected from us many work and involved. Project concept were still changing desigin. In 2017 year we finished working on boat form and we started work on first corpus and polishing result.",
+    "WATER_TEXT": "We carried out the test on the water and made the choice of engine power(300 KM or 2 engine 150KM). Boat is subject to suoervision PRS.",
+    "BUILDING_TEXT": "Building of boat we were started in 2016 year. Building expected from us many work and involved. Project concept were still changing desigin. In 2017 year we finished working on boat form and we started work on first corpus and polishing result.",
     "BUILDING_ALT": "Corpus",
     "DAMIAN_DESCRIPTION":	"CEO and co-founder of company",
     "JOZEF_ROLE": "Production manager",
@@ -37,7 +49,7 @@
     "DESCRIPTION": "Our company is involved in production yachts. We adjusting our products to clients requirenments. Our yachts have luxury eqipement and modern looks.",
     "SITE_MAP": "Site map",
     "CONTACT_US": "Contact us",
-    "ADDRESS": "ul. Jana Pawła II 8 36-042 Rzeszow",
+    "ADDRESS": "Siedliska 18A 36-042 Lubenia",
     "ALL_RIGHTS":"© All Rights Reserved by Tardion yachts"
   }
 }
