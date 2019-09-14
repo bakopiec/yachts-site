@@ -27,6 +27,7 @@
       "NUMBER": "Liczba miejsc do spania",
       "FUEL": "Zbiornik paliwa",
       "WATER": "Zbiornik wody",
+      "PARTLY_SELL": "Możliwość sprzedaży na każdym etapie budowy",
       "CALL": "Skontaktuj się"
 
     },
@@ -50,7 +51,7 @@
     "DESCRIPTION": "Nasza firma jest zaangażowana w produkcję jachtów.Dopasowujemy nasze produkty do potrzeb klientów.Nasze jachty maja luksusowe wyposażenie i nowoczesny wygląd.",
     "SITE_MAP": "Mapa strony",
     "CONTACT_US": "Kontakt do nas",
-    "ADDRESS": "Siedliska 18 A 36-042 Lubenia",
+    "ADDRESS": "Siedliska 18A 36-042 Lubenia",
     "ALL_RIGHTS": "© Wszelkie prawa zastrzeżone przez Perun Yacht"
   }
 }

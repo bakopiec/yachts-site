@@ -27,6 +27,7 @@
       "NUMBER": "Number of sleeping places",
       "FUEL": "Fuel tank",
       "WATER": "Water tank",
+      "PARTLY_SELL": "Possibility of sell on each state of building",
       "CALL": "Contact us"
     },
     "WATER_ALT": "Water test",
