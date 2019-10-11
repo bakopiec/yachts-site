@@ -35,9 +35,8 @@
     "WATER_TEXT": "Przeprowadziliśmy test na wodzie oraz dokonalismy doboru mocy silnika (300KM lub 2 silniki po 150 KM). Łódz podlega nadzorowi PRS.",
     "BUILDING_TEXT": "Budowę łodzi rozpoczęlismy w 2016. Projekt wykonał Przemysław Herbut. W 2017 roku wykonalismy kopyto, następny etap to formy i wreszcie gotowe korpusy.",
     "BUILDING_ALT": "Korpus",
-    "DAMIAN_DESCRIPTION": "CEO oraz współzałożyciel firmy",
     "JOZEF_ROLE": "Menadżer produkcji",
-    "JOZEF_DESCRIPTION": "Współzałożyciel firmy oraz menadżer produkcji",
+    "JOZEF_DESCRIPTION": "CEO oraz menadżer produkcji",
     "KRZYSZTOF_ROLE": "Specjalista produkcji",
     "KRZYSZTOF_DESCRIPTION": "Specjalista do spraw budowy łodzi"
   },
